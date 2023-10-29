@@ -4,7 +4,7 @@ const escapeMarkdown = require("discord.js").Util.escapeMarkdown;
 
 const command = new SlashCommand()
   .setName("playnext")
-  .setDescription("Searches and plays the requested song after the current song")
+  .setDescription("Search and add the requested song and play it after the current song ended")
   .addStringOption((option) =>
     option
       .setName("query")
